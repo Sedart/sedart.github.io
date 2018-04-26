@@ -1585,7 +1585,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: 	#940215 !important; //#49bf9d 
+			color: 	#00c6a8 !important; //#49bf9d #940215
 			text-decoration: none;
 		}
 
@@ -1603,7 +1603,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #00c6a8; //787878
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
