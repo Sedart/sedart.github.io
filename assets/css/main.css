@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	body {
-		background: #CDCDCD; /* Right background color #fff*/
+		background: #202529; /* Right background color #fff #CDCDCD*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1585,7 +1585,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: 	#00c6a8 !important; //#49bf9d #940215
+			color: 	#31c3c2 !important; //#49bf9d #940215
 			text-decoration: none;
 		}
 
@@ -1603,7 +1603,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #00c6a8; //787878
+		color: #31c3c2; //787878
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2026,11 +2026,11 @@
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.0em; /*0.35em */
 				/*border: solid 3px rgba(0, 0, 0, 0.5); /*border: solid 3px rgba(255, 255, 255, 0.5);*/
-				/*background-color: coral;*/
+				background-color: #31c3c2;/*coral*/
 				color: #fff;
 				content: attr(game_name);/*'View'*/
 				display: inline-block;
-				font-size: 2.0em; /* 0.8em*/
+				font-size: 2.0em; /* 0.8em*/ /*2.0em*/
 				font-weight: bold; /*400*/
 				left: 0%;
 				line-height: 2.25em;
@@ -2063,7 +2063,7 @@
 			.image.thumb:hover{
 				/*-moz-transform: scale(1.1);/**/
 				/*-webkit-transform: scale(1.1);/**/
-				/*transform: scale(1.1);/**/
+				/*transform: scale(1.1);/**/				
 			}
 
 		.image img {
@@ -2514,16 +2514,16 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815; /*#1f1815*/
+		background-color: #FFFFFF; /*#1f1815*/
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
+		background-image: url("images/overlay.png"), url("../../images/background_ilustration_canvas.png");/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
+		background-position: top left,							bottom left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 1em 4em;/*8em 4em*/
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2547,17 +2547,17 @@
 		}
 
 		#header strong, #header b {
-			color: #ffffff; /*White name*/
+			color: #30C3C2; /*White name ffffff*/
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #ffffff;/*#ffffff*/
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);/*Header characters*/
-			font-size: 1.35em;
-			line-height: 1.75em;
+			color: rgba(0, 0, 0, 1.0);/*Header characters, white:: (255, 255, 255, 0.5)*/
+			font-size: 1.35em; /*1.35em*/
+			line-height: 1.55em;/*1.75em*/
 			margin: 0;
 		}
 
@@ -2985,7 +2985,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815; /* #1f1815 */
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
