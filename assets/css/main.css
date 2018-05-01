@@ -2889,6 +2889,28 @@
 		opacity: 1.0 !important;
 	}
 
+/* Even more than XLarge*/
+
+@media screen and (min-width: 1920px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 14pt;
+				overflow-x: hidden;
+			}
+
+			/* Main */
+
+			#main {
+				margin-left: 42.5%;
+				max-width: none;
+				padding: 6em 3em 3em 3em;
+				width: calc(100%);
+			}
+
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1800px) {
@@ -2899,6 +2921,13 @@
 				font-size: 12pt;
 			}
 
+
+			#main {
+				margin-left: 35%;
+				max-width: 100%;
+				padding: 6em 3em 3em 3em;
+				width: calc(100% - 35%);
+			}
 	}
 
 /* Large */
