@@ -1597,10 +1597,11 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #31c3c2; //787878
+		color: #31c3c2; /*787878*/
 		font-weight: 400;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0em 1em 0;
+		margin-top: -3.25em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2513,7 +2514,7 @@
 		background-image: url("images/overlay.png"), url("../../images/background_ilustration_canvas.png");/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-position: bottom left,							bottom left;
 		background-repeat: no-repeat,								no-repeat;
-		background-size: auto 100%,								auto 100%;
+		background-size: auto 100%,								auto 120%;
 		color: rgba(255, 255, 255, 1.0);
 		height: 100%;
 		left: 0;
@@ -2567,7 +2568,9 @@
 	}
 
 		#footer .icons a {
-			color: rgba(0, 0, 0, 0.75); /*Icons color*/
+			color: rgba(32, 37, 41, 1.0); /*Icons color*/
+			-webkit-text-stroke-width: 1px;
+   			-webkit-text-stroke-color: rgba(255,255,255,1.0);
 		}
 
 	#footer .copyright {
@@ -2956,7 +2959,8 @@
 			}
 
 				#header h1 {
-					font-size: 1.25em;
+					/*font-size: 1.25em;*/
+					margin-top: -4em;
 				}
 
 					#header h1 br {
@@ -3017,6 +3021,7 @@
 
 				#header h1 {
 					font-size: 1.75em;
+					margin-top: 0em;
 				}
 
 					#header h1 br {
