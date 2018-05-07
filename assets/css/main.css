@@ -2569,8 +2569,9 @@
 
 		#footer .icons a {
 			color: rgba(32, 37, 41, 1.0); /*Icons color*/
-			-webkit-text-stroke-width: 1px;
-   			-webkit-text-stroke-color: rgba(255,255,255,1.0);
+
+			/*-webkit-text-stroke-width: 1px;
+   			-webkit-text-stroke-color: rgba(255,255,255,1.0);*/
 		}
 
 	#footer .copyright {
