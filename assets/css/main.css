@@ -3027,7 +3027,7 @@
 				#header h1 {
 					font-size: 1.75em;
 					margin-top: -4em;
-					padding: 2.25em 1em;
+					padding: 2em 0.5em;
 				}
 
 
@@ -3198,7 +3198,7 @@
 		/* Header */
 
 			#header {
-				padding: 0.5em 0em;
+				padding: 1.5em 0.5em;
 			}
 
 				#header h1 br {
